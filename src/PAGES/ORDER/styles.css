@@ -1,0 +1,125 @@
+#container_order{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#container_order >.container_order_header{
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_order_header >.container_order_header_circle{
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    background-color: #04B3C8;
+}
+
+#container_order >.container_order_description{
+    width: 100%;
+    height: 20%;
+
+    margin-top: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_order_description>.text_order_description{
+    width: 65%;
+
+    text-align: center;
+    font-weight: 700;
+    color: #323232;
+}
+
+.container_order_form_value{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container_order_form_value>.text_order_form_value{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #323232;
+}
+
+.container_order_form_value>.text_order_form_total{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #323232;
+}
+
+.container_order_form_column>.container_order_form_button{
+
+    width: 100%;
+    margin-top: 10%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#container_order >.container_order_form{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+}
+
+.container_order_form>.container_order_form_column{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container_order_form_column>.input_order_form{
+    margin-bottom: 5%;
+    
+    height: 3rem;
+    border: 1px solid #04B3C8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container_order_form_column>.input_order_form_area{
+    margin-bottom: 5%;
+    
+    height: 10rem;
+    border: 1px solid #04B3C8;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.text_order_form_column{
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #323232;
+}
