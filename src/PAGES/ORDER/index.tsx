@@ -54,6 +54,11 @@ export default function Order() {
                     </div>
                 </div>
             </form>
+            <footer className="container_order_footer">
+                <p className="text_order_footer">
+                    Todos os direitos reservados
+                </p>
+            </footer>
         </div>
     );
 }

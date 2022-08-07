@@ -5,7 +5,7 @@ import Signin from "./PAGES/SIGNIN";
 import Order from "./PAGES/ORDER";
 
 function App() {
-    return <Order />;
+    return <Signin />;
 }
 
 export default App;

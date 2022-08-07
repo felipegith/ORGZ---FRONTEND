@@ -2,15 +2,14 @@ import "./styles.css";
 
 import LOGO from "../../ASSETS/logo.png";
 import Button from "../../COMPONENTS/BUTTON";
+import Header from "../../COMPONENTS/HEADER";
 export default function Signin() {
     return (
         <div id="container_signin">
-            <header className="container_signin_header">
-                <p className="text_signin_header_title">Bem vindo de volta!</p>
-                <p className="text_signin_header_content">
-                    Para começar suas atividades faça seu login
-                </p>
-            </header>
+            <Header
+                title="Bem vindo de volta!"
+                description="Para começar suas atividades faça seu login"
+            />
             <div className="container_signin_logo">
                 <img src={LOGO} />
             </div>

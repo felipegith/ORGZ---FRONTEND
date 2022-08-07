@@ -1,0 +1,29 @@
+#container_header {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: #04b3c8;
+}
+
+
+#container_header>.text_header_title{
+    font-weight: 700;
+    line-height: 41px;
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;
+}
+
+
+#container_header>.text_header_content{
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #FFF;
+}
