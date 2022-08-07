@@ -1,0 +1,92 @@
+#container_detail{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container_detail_goback{
+    position: absolute;
+    
+    top: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+#container_detail >.container_detail_image_read{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.container_detail_image_read>.image_detail_read{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#container_detail>.container_detail_box{
+    width: 100%;
+    margin-bottom: 2%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_detail_box>.container_detail_box_data{
+    width: 80%;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    border: 1px solid #04B3C8;
+    background-color: #04B3C8;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container_detail_box>.container_detail_box_data>.container_detail_box_data_row{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text_detail_box_row{
+    width: 70%;
+    max-width: 70%;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.text_detail_box_row_money{
+    max-width: 20%;
+    width: 20%;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+
+.text_detail_box_row_detail{
+    font-size: 0.8rem;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 5%;
+}

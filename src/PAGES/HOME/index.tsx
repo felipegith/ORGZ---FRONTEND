@@ -1,7 +1,9 @@
-import "./styles.css";
+import { Link } from "react-router-dom";
 
 import APRESENTATION from "../../ASSETS/homeimg.png";
 import Button from "../../COMPONENTS/BUTTON";
+
+import "./styles.css";
 
 export default function Home() {
     return (
@@ -18,9 +20,9 @@ export default function Home() {
             </header>
             <div className="container_home_image">
                 <img src={APRESENTATION} className="home_image" />
-                <div className="container_home_button">
+                <Link to="/signin" className="container_home_button">
                     <Button text="Começar" />
-                </div>
+                </Link>
             </div>
             <footer className="container_home_footer">
                 <p className="text_home_footer">Todos os direitos reservados</p>

@@ -1,8 +1,11 @@
-import "./styles.css";
+import { Link } from "react-router-dom";
 
-import LOGO from "../../ASSETS/logo.png";
+import LOGO from "../../ASSETS/ilogo.png";
 import Button from "../../COMPONENTS/BUTTON";
 import Header from "../../COMPONENTS/HEADER";
+
+import "./styles.css";
+
 export default function Signin() {
     return (
         <div id="container_signin">
@@ -11,7 +14,7 @@ export default function Signin() {
                 description="Para começar suas atividades faça seu login"
             />
             <div className="container_signin_logo">
-                <img src={LOGO} />
+                <img src={LOGO} className="logo_icon_signin" />
             </div>
 
             <form className="container_signin_form">
@@ -30,7 +33,9 @@ export default function Signin() {
                         Esqueceu sua senha?
                     </p>
                 </div>
-                <Button text="Entrar" />
+                <Link to="/order">
+                    <Button text="Entrar" />
+                </Link>
             </form>
             <footer className="container_signin_footer">
                 <p className="text_signin_footer">

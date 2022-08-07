@@ -1,20 +1,26 @@
+import { Link } from "react-router-dom";
+
 import Button from "../../COMPONENTS/BUTTON";
+import Header from "../../COMPONENTS/HEADER";
+
+import Icon from "../../ASSETS/food.png";
+
 import "./styles.css";
 
 export default function Order() {
+    let nome = "Felipe";
     return (
         <div id="container_order">
-            <header className="container_order_header">
-                <p>Olá, Felipe.</p>
-                <div className="container_order_header_circle">
-                    <p>3</p>
-                </div>
-            </header>
+            <Link to="/detail" className="container_order_circle">
+                <p className="text_order_circle_count">3</p>
+            </Link>
+            <Header
+                title={`Ola ${nome}`}
+                description="Anote o pedidos dos seus clientes e encaminhe-os para o
+                    local de preparo"
+            />
             <div className="container_order_description">
-                <p className="text_order_description">
-                    Anote o pedidos dos seus clientes e encaminhe-os para o
-                    local de preparo
-                </p>
+                <img src={Icon} className="icon_order_logo" />
             </div>
             <form className="container_order_form">
                 <div className="container_order_form_column">
