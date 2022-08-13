@@ -4,6 +4,7 @@ import Home from "../PAGES/HOME";
 import Signin from "../PAGES/SIGNIN";
 import Order from "../PAGES/ORDER";
 import Detail from "../PAGES/DETAIL";
+import NotFound from "../PAGES/NOTFOUND";
 export default function Router() {
     return (
         <Routes>
@@ -11,6 +12,7 @@ export default function Router() {
             <Route path="/signin" element={<Signin />} />
             <Route path="/order" element={<Order />} />
             <Route path="/detail" element={<Detail />} />
+            <Route path="*" element={<NotFound />} />
         </Routes>
     );
 }

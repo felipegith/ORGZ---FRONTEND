@@ -1,0 +1,24 @@
+#container_notfound{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container_notfound>.image_notfound{
+    width: 80%;
+    
+}
+
+#container_notfound>a{
+    text-decoration: none;
+}
+
+#container_notfound>.text_notfound{
+    font-weight: bold;
+    color: #323232;
+    margin-bottom: 5%;
+}
